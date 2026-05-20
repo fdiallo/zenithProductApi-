@@ -3,7 +3,6 @@ const express = require("express")
 const router = express.Router()
 const Product = require("./../models/Product.js")
 
-
 // POST /api/products (Create a Product)
 router.post("/api/products", async (req, res) => {
 
